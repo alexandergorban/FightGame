@@ -1,5 +1,5 @@
 // Class Fighter
-export default class Fighter {
+export class Fighter {
   constructor(name, power, health) {
     this.name = name;
     this.power = power;

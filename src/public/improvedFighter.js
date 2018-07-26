@@ -1,7 +1,7 @@
-import Fighter from './fighter';
+import {Fighter} from './fighter';
 
 // Class ImprovedFighter
-export default class ImprovedFighter extends Fighter {
+export class ImprovedFighter extends Fighter {
   constructor(name, power, health) {
     super(name, power, health);
   }
