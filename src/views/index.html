@@ -1,12 +1,20 @@
 <html>
-
 <head>
 	<title>Fight</title>
 	<meta charset="UTF-8" />
 </head>
-
 <body>
 	<div id="app"></div>
+  <p id="myLog"></p>
 </body>
-
+<script>
+  window.console = {
+    log: function(str){
+      let node = document.createElement("div");
+      node.appendChild(document.createTextNode(str));
+      document.getElementById("myLog").appendChild(node);
+    }
+  };
+</script>
+<script src="./main.bundle.js"></script>
 </html>
