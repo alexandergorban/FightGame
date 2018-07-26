@@ -20,7 +20,7 @@ export default class Fighter {
   knockout(){
     return new Promise(((resolve, reject) => {
       setTimeout(() => {
-        console.log("knockout: Time is over! (500)");
+        console.log('knockout: Time is over! (500)');
         return resolve();
       }, 500);
     }));
